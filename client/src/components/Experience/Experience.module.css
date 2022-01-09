@@ -1,0 +1,21 @@
+.root {
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+}
+
+.text {
+  background-color: #101625;
+  -webkit-box-shadow: 5px 6px 15px 5px #00163f;
+  box-shadow: 5px 6px 15px 5px #00163f;
+}
+
+:nth-child(4) .text {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

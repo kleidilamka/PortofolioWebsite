@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  /* padding: 10px; */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #101625;
+  height: 90%;
+}
+
+.backgroundColor {
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+}
