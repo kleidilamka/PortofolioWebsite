@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { devices } from "../../styles/devices";
 
+export const Logo = styled.img`
+  max-width: 50px;
+  max-height: 50px;
+  @media ${devices.tablet} {
+    display: none;
+  }
+`;
+
 export const MenuLabel = styled.label`
   display: none;
   @media ${devices.tablet} {
@@ -24,12 +32,8 @@ export const NavBackground = styled.div`
     display: flex;
 
     position: fixed;
-    background: radial-gradient(
-      circle at 30% -100%,
-      #042c54 25%,
-      rgba(4, 44, 84, 1) 85%,
-      rgba(27, 120, 222, 1) 100%
-    );
+    background: #01071a;
+
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -88,7 +92,7 @@ export const Navigation = styled.nav`
   z-index: 100;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #101625;
+  background-color: #01071a;
   position: fixed;
   width: 100%;
   padding: 15px 0;

@@ -29,7 +29,7 @@ export const WhiteButton = styled.div`
   margin-top: 20px;
   margin-left: 20px;
   border: double 1px transparent;
-  background-image: linear-gradient(#101625, #101625),
+  background-image: linear-gradient(#01071a, #01071a),
     linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
 
   background-origin: border-box;

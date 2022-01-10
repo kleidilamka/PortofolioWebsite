@@ -6,7 +6,8 @@
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #101625;
+  background-color: #01071a;
+
   height: 90%;
 }
 

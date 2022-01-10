@@ -1,5 +1,14 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  DiFirebase,
+  DiJavascript1,
+  DiReact,
+  DiHtml5,
+  DiCss3,
+} from "react-icons/di";
+import { SiAwsamplify, SiTypescript } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+
 import {
   SectionStyles,
   SectionText,
@@ -10,6 +19,7 @@ import {
   Item,
   ItemTitle,
   ItemDescription,
+  List,
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -17,7 +27,10 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <ItemContainer>
       <Item>
-        <DiReact size={30} color={"#fff"} />
+        <DiHtml5 size={30} color={"#f06529"} />
+        <DiCss3 size={30} color={"#2965f1"} />
+        <DiJavascript1 size={30} color={"yellow"} />
+        <DiReact size={30} color={"#61d8fb"} />
         <ItemTitle>Frontend</ItemTitle>
         <ItemDescription>
           Frontend experience with multiple tools most mentioned React and React
@@ -28,7 +41,9 @@ const Technologies = () => (
         </ItemDescription>
       </Item>
       <Item>
-        <DiFirebase size={30} color={"#fff"} />
+        <SiAwsamplify size={26} color={"orange"} />
+        <FaNodeJs size={30} color={"#215732	"} />
+
         <ItemTitle>Backend</ItemTitle>
         <ItemDescription>
           Frontend experience with multiple tools most mentioned React and React
@@ -39,7 +54,7 @@ const Technologies = () => (
         </ItemDescription>
       </Item>
       <Item>
-        <DiZend size={30} color={"#fff"} />
+        <DiReact size={30} color={"#0E6195"} />
         <ItemTitle>Mobile Development</ItemTitle>
         <ItemDescription>
           Frontend experience with multiple tools most mentioned React and React

@@ -96,7 +96,7 @@ export const Pointer = styled.div`
   height: 10px;
   width: 10px;
   border-radius: 5px;
-  background-color: green;
+  background-color: #00163f;
   @media ${devices.tablet} {
     height: 97.5%;
     display: none;

@@ -13,6 +13,7 @@ import {
   SectionLeft,
   Button,
 } from "../../styles/GlobalComponents";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -28,7 +29,19 @@ const Hero = () => {
           build awesome apps.
         </HeroText>
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <Button>Contact Me</Button>
+          <Button>
+            <Link
+              to="contact"
+              smooth={true}
+              hashSpy={true}
+              // offset={50}
+              duration={500}
+              delay={200}
+              isDynamic={true}
+            >
+              Contact
+            </Link>
+          </Button>
           <WhiteButton>Resume</WhiteButton>
         </div>
       </SectionLeft>

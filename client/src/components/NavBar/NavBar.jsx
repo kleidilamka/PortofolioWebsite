@@ -7,8 +7,10 @@ import {
   Navigation,
   Icon,
   NavTitle,
+  Logo,
 } from "./NavBarStyles";
 import { Link } from "react-scroll";
+import logo1 from "../../assets/logo1.png";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -30,11 +32,11 @@ const NavBar = () => {
           hashSpy={true}
           offset={-50}
           duration={500}
-          delay={1000}
+          delay={200}
           isDynamic={true}
           onClick={closeNav}
         >
-          <NavTitle>Kleidi Lamka</NavTitle>
+          <Logo src={logo1} />
         </Link>
         <List>
           {click && (
@@ -47,7 +49,7 @@ const NavBar = () => {
                   hashSpy={true}
                   offset={-50}
                   duration={500}
-                  delay={1000}
+                  delay={200}
                   isDynamic={true}
                   onClick={closeNav}
                 >

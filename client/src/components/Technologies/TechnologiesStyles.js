@@ -7,7 +7,8 @@ export const ItemContainer = styled.div`
   height: 30%;
   width: 85%;
   background-color: #101625;
-
+  padding: 20px;
+  border-radius: 12px;
   @media ${devices.tablet} {
     display: flex;
     flex-direction: column;
@@ -18,9 +19,12 @@ export const ItemContainer = styled.div`
 `;
 
 export const Item = styled.div`
-  height: 100%;
+  max-height: 90%;
   width: 50%;
   margin-inline: 50px;
+  padding: 15px;
+  background: #01071a;
+  border-radius: 12px;
 
   @media ${devices.tablet} {
     width: 100%;
@@ -49,4 +53,13 @@ export const ItemDescription = styled.h3`
     color: lightgrey;
     margin-bottom: 10px;
   }
+`;
+
+export const List = styled.ul`
+  color: #fff;
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 `;

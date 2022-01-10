@@ -45,7 +45,7 @@ const About = () => {
           </IconsContainer>
         </LeftContainer>
         <RightContainer>
-          <SectionTitle>Kleidi Lamka</SectionTitle>
+          <SectionTitle>Hello, I am Kleidi Lamka</SectionTitle>
           <SectionText>
             The purpose of JavaScript Mastery is to help aspiring and
             established developers to take their development skills to the next

@@ -30,7 +30,8 @@ export const Container = styled.div`
 
 export const ContactLeft = styled.div`
   display: flex;
-  background-color: #101625;
+  background-color: #01071a;
+
   -webkit-box-shadow: 5px 6px 15px 5px #00163f;
   box-shadow: 5px 6px 15px 5px #00163f;
   margin-top: 20px;
