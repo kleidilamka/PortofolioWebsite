@@ -7,6 +7,10 @@ export const ExperienceStyles = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+
+  @media ${devices.tablet} {
+    margin-block: 50px;
+  }
 `;
 
 export const ItemLeft = styled.div`
@@ -15,7 +19,7 @@ export const ItemLeft = styled.div`
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  text-align: end;
+  text-align: start;
   justify-content: flex-end;
   align-items: flex-end;
   @media ${devices.tablet} {
@@ -39,7 +43,6 @@ export const ItemRight = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   border-radius: 10px;
-
   @media ${devices.tablet} {
     height: 50%;
     max-width: 90%;
@@ -57,8 +60,8 @@ export const ExperienceText = styled.h3`
   border-radius: 10px;
   font-size: 28;
   color: lightgrey;
-  max-width: 47%;
-  margin-top: 100px;
+  width: 57%;
+
   font-weight: 500;
 
   @media ${devices.tablet} {
@@ -69,7 +72,7 @@ export const ExperienceText = styled.h3`
 
 export const VerticalLine = styled.div`
   margin-top: 50px;
-  height: 100%;
+  height: 60%;
   position: absolute;
   border: 2px solid #fff;
   @media ${devices.tablet} {

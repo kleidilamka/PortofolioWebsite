@@ -9,10 +9,13 @@ import {
   AboutStyles,
   RightContainer,
   IconsContainer,
+  AboutTitle,
+  TextContainer,
 } from "./AboutStyles";
 import ProfilePic from "../../assets/jari.jpeg";
 import { MdMailOutline } from "react-icons/md";
 import { ImGithub, ImLinkedin } from "react-icons/im";
+import Typewriter from "typewriter-effect";
 
 const About = () => {
   return (
@@ -45,18 +48,30 @@ const About = () => {
           </IconsContainer>
         </LeftContainer>
         <RightContainer>
-          <SectionTitle>Hello, I am Kleidi Lamka</SectionTitle>
+          <TextContainer>
+            <AboutTitle>Hello i am,</AboutTitle>
+            <AboutTitle>
+              <Typewriter
+                options={{
+                  skipAddStyles: true,
+                  strings: [" Kleidi Lamka"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </AboutTitle>
+          </TextContainer>
           <SectionText>
-            The purpose of JavaScript Mastery is to help aspiring and
-            established developers to take their development skills to the next
-            level and build awesome apps. The purpose of JavaScript Mastery is
-            to help aspiring and established developers to take their
-            development skills to the next level and build awesome apps. The
-            purpose of JavaScript Mastery is to help aspiring and established
-            developers to take their development skills to the next level and
-            build awesome apps. The purpose of JavaScript Mastery is to help
-            aspiring and established developers to take their development skills
-            to the next level and build awesome apps.
+            I am a fullstack developer with 1 year and a half experience
+            developing a variety of web and mobile applications. My passion for
+            programming helped develop a diverse set of skills on frontend
+            ranging from HTML, CSS3 to Javascript and multiple Javascript
+            frameworks like React, Vue and React Native for mobile apps. I have
+            also done my share of works in backend development. The most notable
+            technologies i have used are NodeJS with Express and backend as a
+            service with AWS Amplify. I specialize in creating and bringing
+            clients the most rich with features app and an industry standard
+            performance
           </SectionText>
         </RightContainer>
       </AboutStyles>

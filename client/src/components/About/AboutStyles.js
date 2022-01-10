@@ -77,3 +77,15 @@ export const RightContainer = styled.div`
     text-align: center;
   }
 `;
+
+export const AboutTitle = styled.h3`
+  color: #fff;
+  font-size: 30px;
+  margin-inline-end: 10px;
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+`;

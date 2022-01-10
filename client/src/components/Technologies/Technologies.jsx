@@ -33,11 +33,10 @@ const Technologies = () => (
         <DiReact size={30} color={"#61d8fb"} />
         <ItemTitle>Frontend</ItemTitle>
         <ItemDescription>
-          Frontend experience with multiple tools most mentioned React and React
-          Native Frontend experience with multiple tools most mentioned React
-          and React Native Frontend experience with multiple tools most
-          mentioned React and React Native Frontend experience with multiple
-          tools most mentioned React and React Native
+          Frontend experience with HTML, CSS and Javascript and Javascript
+          frameworks like React and Vue. With frontend being the main field of
+          expertise, i have experience developing multiple websites for
+          businesses with easy navigation for customers
         </ItemDescription>
       </Item>
       <Item>
@@ -46,22 +45,21 @@ const Technologies = () => (
 
         <ItemTitle>Backend</ItemTitle>
         <ItemDescription>
-          Frontend experience with multiple tools most mentioned React and React
-          Native Frontend experience with multiple tools most mentioned React
-          and React Native Frontend experience with multiple tools most
-          mentioned React and React Native Frontend experience with multiple
-          tools most mentioned React and React Native
+          Backend is one of my favorite fields of software development. I try to
+          bring to life scalable applications and use the newest technologies
+          for businesses to get realtime data without delay. My favorite
+          technologies are Express with NodeJS and AWS Amplify
         </ItemDescription>
       </Item>
       <Item>
         <DiReact size={30} color={"#0E6195"} />
         <ItemTitle>Mobile Development</ItemTitle>
         <ItemDescription>
-          Frontend experience with multiple tools most mentioned React and React
-          Native Frontend experience with multiple tools most mentioned React
-          and React Native Frontend experience with multiple tools most
-          mentioned React and React Native Frontend experience with multiple
-          tools most mentioned React and React Native
+          Mobile development is the main path in my career. I have built
+          multiple apps with Javascript and React Native in a professional
+          environment. Always careful to implement pixel perfect of designs and
+          and create performant applications by following the best practices to
+          make the user experience the best possible.
         </ItemDescription>
       </Item>
     </ItemContainer>

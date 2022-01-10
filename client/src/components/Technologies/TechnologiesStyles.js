@@ -6,7 +6,12 @@ export const ItemContainer = styled.div`
   display: flex;
   height: 30%;
   width: 85%;
-  background-color: #101625;
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
   padding: 20px;
   border-radius: 12px;
   @media ${devices.tablet} {
@@ -14,7 +19,7 @@ export const ItemContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 85%;
   }
 `;
 
@@ -24,11 +29,13 @@ export const Item = styled.div`
   margin-inline: 50px;
   padding: 15px;
   background: #01071a;
+
   border-radius: 12px;
 
   @media ${devices.tablet} {
-    width: 100%;
+    width: 90%;
     height: max-content;
+    margin-block: 15px;
   }
 `;
 

@@ -20,13 +20,13 @@ const Hero = () => {
     <SectionStyles id="home" style={{ marginTop: 60 }}>
       <SectionLeft>
         <SectionTitle>
-          Welcome To <br />
-          My Personal Portfolio
+          Mobile and Web <br />
+          Fullstack Developer
         </SectionTitle>
         <HeroText>
-          The purpose of JavaScript Mastery is to help aspiring and established
-          developers to take their development skills to the next level and
-          build awesome apps.
+          My purpose is to develop the most efficient applications and websites
+          according to the client needs and help aspiring developers take their
+          skills to another level
         </HeroText>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <Button>

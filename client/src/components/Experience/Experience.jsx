@@ -16,20 +16,16 @@ import styles from "./Experience.module.css";
 const data = [
   {
     id: 1,
-    date: "14 March 2020",
+    date: "March 2020",
     experience:
-      "Frontend experience with multiple tools most mentioned React and React Native Frontend experience with multiple tools most mentioned React and React Native Frontend experience with multiple tools most mentioned",
+      "Initiated my journey as a software developer and started building websites with Javascript as the primary technology",
   },
 
   {
     id: 2,
-    date: "22 January 2021",
+    date: "January 2021",
     experience:
-      "Backend experience with multiple tools most mentioned React and React Native Frontend experience with multiple tools most mentioned React and React Native Frontend experience with multiple tools most mentioned",
-  },
-  {
-    id: 3,
-    experience: "              ",
+      "Started my first software development job at Karaspidhos Inc. and gained a lot of experience in a professional environment with expert mentors in their fields",
   },
 ];
 
@@ -37,19 +33,12 @@ const Experience = () => {
   return (
     <SectionStyles id="experience" className={styles.root}>
       <VerticalLine></VerticalLine>
-
       {data.map((item, index) => {
         if (index % 2 === 0) {
           return (
             <ExperienceStyles>
               <ItemLeft>
-                <SectionText
-                  style={{
-                    marginBottom: -80,
-                  }}
-                >
-                  {item.date}
-                </SectionText>
+                <ExperienceText>{item.date}</ExperienceText>
                 <ExperienceText className={styles.text}>
                   {item.experience}
                 </ExperienceText>
@@ -63,9 +52,7 @@ const Experience = () => {
           return (
             <ExperienceStyles>
               <ItemRight>
-                <SectionText style={{ marginBottom: -80 }}>
-                  {item.date}
-                </SectionText>
+                <ExperienceText>{item.date}</ExperienceText>
                 <ExperienceText className={styles.text}>
                   {item.experience}
                 </ExperienceText>
