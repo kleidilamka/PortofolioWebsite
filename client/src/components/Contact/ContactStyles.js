@@ -73,6 +73,7 @@ export const ContactInput = styled.input`
   height: 50px;
   width: 80%;
   border-radius: 8px;
+  padding-left: 10px;
 
   @media ${devices.tablet} {
     width: 100%;
@@ -85,6 +86,7 @@ export const MessageInput = styled.textarea`
   width: 80%;
   border-radius: 8px;
 
+  padding: 10px;
   @media ${devices.tablet} {
     width: 100%;
   }
