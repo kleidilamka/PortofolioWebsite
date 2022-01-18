@@ -15,6 +15,7 @@ export const ExperienceStyles = styled.div`
 
 export const ItemLeft = styled.div`
   height: 300px;
+  width: 47%;
   max-width: 47%;
   align-self: flex-start;
   display: flex;
@@ -24,6 +25,7 @@ export const ItemLeft = styled.div`
   align-items: flex-end;
   @media ${devices.tablet} {
     height: 50%;
+    width: 90%;
     max-width: 90%;
     align-self: center;
     margin-left: 10px;
@@ -36,6 +38,7 @@ export const ItemLeft = styled.div`
 
 export const ItemRight = styled.div`
   height: 300px;
+  width: 47%;
   max-width: 47%;
   align-self: flex-end;
   display: flex;
@@ -45,6 +48,7 @@ export const ItemRight = styled.div`
   border-radius: 10px;
   @media ${devices.tablet} {
     height: 50%;
+    width: 90%;
     max-width: 90%;
     align-self: center;
     margin-left: 10px;
@@ -66,6 +70,7 @@ export const ExperienceText = styled.h3`
 
   @media ${devices.tablet} {
     height: 90%;
+    width: 90%;
     max-width: 90%;
   }
 `;

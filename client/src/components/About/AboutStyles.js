@@ -45,7 +45,10 @@ export const IconsContainer = styled.div`
 
 export const AboutImg = styled.img`
   max-width: 350px;
-  max-height: 3500px;
+  width: 350px;
+  max-height: 500px;
+  height: 500px;
+
   border-radius: 50%;
   border-radius: 10%;
 

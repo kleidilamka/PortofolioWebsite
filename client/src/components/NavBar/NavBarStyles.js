@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { devices } from "../../styles/devices";
 
 export const Logo = styled.img`
+  width: 50px;
+  height: 50px;
   max-width: 50px;
   max-height: 50px;
   @media ${devices.tablet} {
