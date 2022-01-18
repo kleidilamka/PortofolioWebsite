@@ -104,8 +104,8 @@ const Contact = () => {
             <MessageInput
               className={styles.input}
               type="text"
-              id="message"
-              name="message"
+              // id="message"
+              // name="message"
               value={message}
               onChange={handleMessage}
             />

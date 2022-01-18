@@ -81,7 +81,7 @@ export const ContactInput = styled.input`
 
 export const MessageInput = styled.textarea`
   margin-top: 7px;
-  height: 50px;
+  height: 200px;
   width: 80%;
   border-radius: 8px;
 

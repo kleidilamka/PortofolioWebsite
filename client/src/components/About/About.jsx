@@ -24,11 +24,7 @@ const About = () => {
         <LeftContainer>
           <AboutImg src={ProfilePic} />
           <IconsContainer>
-            <a
-              href="https://github.com/kleidilamka"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a class="mailto" href="mailto:kleidilamka@gmail.com">
               <MdMailOutline size={30} color={"white"} />
             </a>
             <a
@@ -39,7 +35,7 @@ const About = () => {
               <ImGithub style={{ margin: 20 }} size={30} color={"white"} />
             </a>
             <a
-              href="https://github.com/kleidilamka"
+              href="https://www.linkedin.com/in/kleidi-lamka-335979174/"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,12 +45,12 @@ const About = () => {
         </LeftContainer>
         <RightContainer>
           <TextContainer>
-            <AboutTitle>Hello i am,</AboutTitle>
+            <AboutTitle>Hello, </AboutTitle>
             <AboutTitle>
               <Typewriter
                 options={{
                   skipAddStyles: true,
-                  strings: [" Kleidi Lamka"],
+                  strings: ["I am Kleidi Lamka"],
                   autoStart: true,
                   loop: true,
                 }}

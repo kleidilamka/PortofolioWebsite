@@ -66,8 +66,7 @@ export const AboutImg = styled.img`
 export const RightContainer = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 2;
-  text-align: center;
+  flex: 1;
   align-items: flex-end;
   width: 100%;
   @media ${devices.tablet} {
@@ -78,14 +77,15 @@ export const RightContainer = styled.div`
   }
 `;
 
-export const AboutTitle = styled.h3`
-  color: #fff;
-  font-size: 30px;
-  margin-inline-end: 10px;
-`;
-
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-self: center;
+`;
+
+export const AboutTitle = styled.h3`
+  color: #fff;
+  font-size: 30px;
+  margin-inline-end: 10px;
+  text-align: center;
 `;
