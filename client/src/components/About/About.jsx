@@ -62,12 +62,11 @@ const About = () => {
             developing a variety of web and mobile applications. My passion for
             programming helped develop a diverse set of skills on frontend
             ranging from HTML, CSS3 to Javascript and multiple Javascript
-            frameworks like React, Vue and React Native for mobile apps. I have
-            also done my share of works in backend development. The most notable
-            technologies i have used are NodeJS with Express and backend as a
-            service with AWS Amplify. I specialize in creating and bringing
-            clients the most rich with features app and an industry standard
-            performance
+            frameworks like React and React Native for mobile apps. I have also
+            done my share of works in backend development. The most notable
+            technologies i have used are NodeJS with Express and AWS Amplify. I
+            specialize in creating and bringing clients the most rich with
+            features app and an industry standard performance
           </SectionText>
         </RightContainer>
       </AboutStyles>

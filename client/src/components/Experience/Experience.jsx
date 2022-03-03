@@ -16,16 +16,16 @@ import styles from "./Experience.module.css";
 const data = [
   {
     id: 1,
-    date: "March 2020",
+    date: "September 2020",
     experience:
       "Initiated my journey as a software developer and started building websites with Javascript as the primary technology",
   },
 
   {
     id: 2,
-    date: "January 2021",
+    date: "March 2021",
     experience:
-      "Started my first software development job at Karaspidhos Inc. and gained a lot of experience in a professional environment with expert mentors in their fields",
+      "Started my first software development job at Digital Evolution Agency and gained a lot of experience in a professional environment with expert mentors in their fields",
   },
 ];
 

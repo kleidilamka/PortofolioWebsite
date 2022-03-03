@@ -58,8 +58,8 @@ const Technologies = () => (
           Mobile development is the main path in my career. I have built
           multiple apps with Javascript and React Native in a professional
           environment. Always careful to implement pixel perfect of designs and
-          and create performant applications by following the best practices to
-          make the user experience the best possible.
+          create performant applications by following the best practices to make
+          the user experience the best possible.
         </ItemDescription>
       </Item>
     </ItemContainer>
